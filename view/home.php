@@ -6,15 +6,13 @@
 </ul> 
 
 
- <ul id="NAV2">
-  <li><a>Amsterdamse Broodjes</a></li>
-  <li><a>Warme Broodjes</a></li>
-  <li><a>Gezonde Maaltijdsalades</a></li>
-  <li><a>Voorgerechten</a></li>
-  <li><a>Hoofdgerechten</a></li>
-  <li><a>Warme Broodjes Specialiteiten</a></li>
- 
-</ul>
+
+
+
+
+
+
+
 
 <div class="FoodSelection">
     <img class="PlaatjeGerecht" src="Images/Etenmetnaam/biefstuk.jpg">
