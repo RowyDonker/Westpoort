@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Roboto;
+    src: url(FONTS/Roboto/Roboto-Regular.ttf);
+    font-weight:medium;
+}
+
+body {
+    font-family: Roboto;
+    margin: 0px;
+}
+#Titel{
+position: absolute;
+color:white;
+float: left;
+margin-top: 5px;
+margin-left: 5px;
+}
+#NAV{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   background-color: #b01033;
+    border-bottom: solid black 2px;
+}
+
+#NAV li {
+    float: right;
+}
+
+#NAV li a {
+    display: block;
+    color: white;
+    background-color: #d93257;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#NAV li a:hover {
+    background-color: seagreen;
+}
+
+#NAV2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:25%;
+    font-size: 100%;
+    cursor: pointer;
+    background-color: #b01033;
+    float: left;
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+}
+
+#NAV2 li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#NAV2 li a:hover {
+    background-color: #555;
+    color: white;
+}
+.FoodSelection{
+width: 74.68%;
+height: 100px;
+background-color: whitesmoke;
+float: right;
+border-bottom: 2px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+transition: all 0.5s;
+}
+.FoodSelection:Hover{
+width: 74.68%;
+height: 150px;
+background-color:white;
+float: right;
+border-bottom: 2px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+transition: all 0.5s;
+}
+.CONTENT{
+margin-left: 5%;
+margin-top: 3%;
+width: 75%;
+}
+.FoodSelection:Hover .CONTENT{
+width: 75%;
+}
+.FoodSelection:Hover .PlaatjeGerecht{
+float: left;
+height: 140px;
+width: 150px;
+border: solid;
+border-color:Gainsboro;
+border-width: 5px;
+transition: all 0.5s;
+}
+
+.PlaatjeGerecht{
+float: left;
+height: 90px;
+width: 100px;
+border: solid;
+border-color:Gainsboro;
+border-width: 5px; 
+transition: all 0.5s;
+}
+.FoodSelection:Hover .Beschrijving{
+opacity: 1;
+transition: all 0.5s;
+width: 75%;
+}
+.Beschrijving{
+opacity: 0;
+}
+.GerechtTekst{
+margin-left: 10%;
+width: 70%;
+margin-top: 2%;
+transition: all 0.3s;
+}
+.FoodSelection:Hover .GerechtTekst{
+margin-left: 15%;
+transition: all 1s;
+width: 70%;
+}
+.FoodSelection:Hover .BestelKar{
+height: 50px;
+width: 50px;
+float: right;
+margin-top: -70px;
+margin-right: 20px;
+cursor: pointer;
+transition: all 1.5s;
+}
+.BestelKar{
+height: 50px;
+width: 50px;
+float: right;
+margin-top: -100px;
+margin-right: 50px;
+cursor: pointer;
+transition: all 0.5s;
+
+}
+.BestelText{
+opacity: 0;
+float: right;
+margin-top: -10px;
+margin-right: 7px;
+box-shadow: 1px 5px #888888;
+}
+.FoodSelection:Hover .BestelText{
+transition: 0.5s;
+opacity: 1;
+background-color: white;
+cursor: pointer;
+margin-right: 6px;
+border: solid 2px black;
+border-radius: 10px;
+font-size: 17px;
+}
+.FoodSelection .BestelText:hover{
+background-color: ghostwhite;
+box-shadow: 1px 2px #888888;
+margin-top: -5px;
+cursor: pointer;
+}
+.GerechtNaam{
+margin-top: 40px;
+transition: all 1s;
+width: 70%;
+}
+.FoodSelection:hover .GerechtNaam{
+margin: 0;
+transition: all 1s;
+}
+.BestelKarVol{
+height: 50px;
+width: 50px;
+float: right;
+margin-top: -100px;
+margin-right: 40px;
+cursor: pointer;
+transition: all 0.5s;
+opacity: 0;
+
+}
+.FoodSelection:Hover .BestelKar{
+height: 50px;
+width: 50px;
+float: right;
+margin-top: -70px;
+margin-right: 20px;
+cursor: pointer;
+transition: all 1.5s;
+
+}
+.FoodSelection .BestelKar:Hover {
+opacity: 0;
+}
+.FoodSelection:Hover .BestelKarVol{
+height: 50px;
+width: 50px;
+float: right;
+margin-top: -70px;
+margin-right: 20px;
+cursor: pointer;
+transition: all 1.5s;
+}
+.WinkelKar{
+cursor: pointer;
+width: 50px;
+height: 100px;
+float: right;
+}
+.WinkelKar:Hover .BestelKar{
+opacity: 0;
+cursor: pointer;
+}
+.WinkelKar:Hover .BestelKarVol{
+opacity: 1;
+cursor: pointer;
+}
