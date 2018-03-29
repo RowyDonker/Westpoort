@@ -52,7 +52,9 @@ margin-left: 5px;
     background-color: #b01033;
     float: left;
 }
-
+#NAV2 li{
+transition: 0.5s all;
+}
 #NAV2 li a {
     display: block;
     color: white;
@@ -118,12 +120,13 @@ transition: all 0.5s;
 opacity: 1;
 transition: all 0.5s;
 width: 90%;
+visibility: visible;
 }
 .Beschrijving{
 opacity: 0;
 width: 90%;
-height: 57px;
-pos
+visibility: hidden;
+
 }
 .GerechtTekst{
 margin-left: 10%;
@@ -141,6 +144,7 @@ height: 50px;
 width: 50px;
 float: right;
 margin-right: 20px;
+
 cursor: pointer;
 transition: all 1.5s;
 }
@@ -148,7 +152,7 @@ transition: all 1.5s;
 height: 50px;
 width: 50px;
 float: right;
-margin-top: -100px;
+margin-top: -80px;
 margin-right: 50px;
 cursor: pointer;
 transition: all 0.5s;
@@ -217,14 +221,14 @@ float: right;
 margin-top: -70px;
 margin-right: 20px;
 cursor: pointer;
-transition: all 1.5s;
+transition: all 0.5s;
 }
 .WinkelKar{
 cursor: pointer;
 width: 50px;
 height: 100px;
 float: right;
-margin-top: -40px;
+margin-top: -30px;
 }
 .WinkelKar:Hover .BestelKar{
 opacity: 0;
@@ -234,4 +238,5 @@ cursor: pointer;
 opacity: 1;
 cursor: pointer;
 }
+
 
