@@ -41,6 +41,10 @@ switch ($category) {
 		include "Handmatig.php";
 
 	break;
+    	case 'Winkelmand':
+		include "Winkelmand.php";
+
+	break;
 	default:
 	include "home.php";
 		break;
