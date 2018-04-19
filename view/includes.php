@@ -49,7 +49,6 @@ switch ($category) {
 	include "home.php";
 		break;
 }
-
 include "footer.php";
 
 
