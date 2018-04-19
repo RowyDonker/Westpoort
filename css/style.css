@@ -1,31 +1,45 @@
 @font-face {
     font-family: Roboto;
     src: url(../FONTS/Roboto/Roboto-Regular.ttf);
-    font-weight:medium;
+    
 }
+@font-face {
+    font-family: Allura;
+    src: url(../FONTS/allura/Allura-Regular.otf);
 
+}
 body {
     font-family: Roboto;
     margin: 0px;
 }
+.TitelBestelPagina{
+font-family: Allura;
+color: #b01033;
+text-align: center;
+font-size: 45px;
+background-color: white;
+}
 #Titel{
 position: absolute;
 color:white;
-float: left;
+font-family: Allura;
 margin-top: 5px;
-margin-left: 5px;
+margin-left: 10px;
 }
 #NAV{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
     overflow: hidden;
-   background-color: #b01033;
+    background-color: #d93257;
     border-bottom: solid black 2px;
+    
 }
 
 #NAV li {
     float: right;
+    
 }
 
 #NAV li a {
@@ -39,7 +53,7 @@ margin-left: 5px;
 
 /* Change the link color to #111 (black) on hover */
 #NAV li a:hover {
-    background-color: seagreen;
+    background-color: #df5371;
 }
 
 #NAV2 {
@@ -49,10 +63,15 @@ margin-left: 5px;
     width:25%;
     font-size: 100%;
     cursor: pointer;
-    background-color: #b01033;
+    position: absolute;
+    background-color: #d93257;
     float: left;
+    font-family: Allura;
+    border-bottom: solid black 2px;
 }
-
+#NAV2 li{
+transition: 0.5s all;
+}
 #NAV2 li a {
     display: block;
     color: white;
@@ -64,31 +83,32 @@ margin-left: 5px;
     width: 100%;
     font-size: 125%;
     transition: all 0.5s;
+    text-shadow: 0 0 3px black, 0 0 5px gray;
 }
 /* Change the link color on hover */
 #NAV2 li a:hover {
-    background-color: #555;
+    background-color: #df5371;
     color: white;
 }
 .FoodSelection{
 width: 75%;
-height: 100px;
-background-color: whitesmoke;
+height: 50px;
+background-color:white;
 float: right;
-border-bottom: 2px solid black;
-
+border-bottom: 1px solid black;
+border-top: 1px solid black;
 transition: all 0.5s;
 }
 .FoodSelection:Hover{
 width: 75%;
-height: 150px;
+height: 170px;
 background-color:white;
 float: right;
 border-bottom: 2px solid black;
-transition: all 0.5s;
+transition: all 0.3s;
 }
 .CONTENT{
-margin-left: 5%;
+margin-left: 10%;
 margin-top: 3%;
 width: 75%;
 }
@@ -97,18 +117,29 @@ width: 75%;
 }
 .FoodSelection:Hover .PlaatjeGerecht{
 float: left;
-height: 140px;
+height: 160px;
 width: 150px;
 border: solid;
 border-color:Gainsboro;
 border-width: 5px;
 transition: all 0.5s;
+cursor: pointer;
 }
-
+.FoodSelection .PlaatjeGerecht:active{
+float: left;
+height: 280px;
+width: 300px;
+border: solid;
+position: absolute;
+border-color:Gainsboro;
+border-width: 5px;
+transition: all 0s;
+margin: 0px;
+}
 .PlaatjeGerecht{
 float: left;
-height: 90px;
-width: 100px;
+height: 40px;
+width: 45px;
 border: solid;
 border-color:Gainsboro;
 border-width: 5px; 
@@ -116,14 +147,30 @@ transition: all 0.5s;
 }
 .FoodSelection:Hover .Beschrijving{
 opacity: 1;
-transition: all 0.5s;
+transition: all 1s;
 width: 90%;
+height: 70px;
+max-height: 70px;
+margin-top: -2%;
+visibility: visible;
+overflow-y: scroll;
+text-align: left;
 }
 .Beschrijving{
 opacity: 0;
-width: 90%;
-height: 57px;
-pos
+width: 100%;
+height: 54px;
+visibility: hidden;
+
+}
+.Prijs{
+    visibility: hidden;
+ 
+}
+.FoodSelection:Hover .Prijs{
+visibility: visible;
+margin-top:5px;
+
 }
 .GerechtTekst{
 margin-left: 10%;
@@ -134,7 +181,7 @@ transition: all 0.3s;
 .FoodSelection:Hover .GerechtTekst{
 margin-left: 15%;
 transition: all 1s;
-width: 70%;
+width: 85%;
 }
 .FoodSelection:Hover .BestelKar{
 height: 50px;
@@ -145,10 +192,10 @@ cursor: pointer;
 transition: all 1.5s;
 }
 .BestelKar{
-height: 50px;
-width: 50px;
+height: 35px;
+width: 35px;
 float: right;
-margin-top: -100px;
+margin-top: -75px;
 margin-right: 50px;
 cursor: pointer;
 transition: all 0.5s;
@@ -160,6 +207,7 @@ float: right;
 margin-top: -10px;
 margin-right: 7px;
 box-shadow: 1px 5px #888888;
+visibility: hidden;
 }
 .FoodSelection:Hover .BestelText{
 transition: 0.5s;
@@ -170,6 +218,7 @@ margin-right: 6px;
 border: solid 2px black;
 border-radius: 10px;
 font-size: 17px;
+visibility: visible;
 }
 .FoodSelection .BestelText:hover{
 background-color: ghostwhite;
@@ -178,7 +227,7 @@ margin-top: -5px;
 cursor: pointer;
 }
 .GerechtNaam{
-margin-top: 40px;
+margin-top:-15px;
 transition: all 1s;
 width: 70%;
 }
@@ -217,14 +266,21 @@ float: right;
 margin-top: -70px;
 margin-right: 20px;
 cursor: pointer;
-transition: all 1.5s;
+transition: all 1s;
+}
+.FoodSelection:Hover .WinkelKar{
+margin-top: -70px;
+visibility: visible;
 }
 .WinkelKar{
 cursor: pointer;
-width: 50px;
-height: 100px;
-float: right;
-margin-top: -40px;
+right: 10px;
+position: absolute;
+margin-top: -95px;
+width: 0px;
+}
+.BestelKar{
+visibility: visible;
 }
 .WinkelKar:Hover .BestelKar{
 opacity: 0;
@@ -233,5 +289,62 @@ cursor: pointer;
 .WinkelKar:Hover .BestelKarVol{
 opacity: 1;
 cursor: pointer;
+transition: 1s;
 }
 
+#UitlegHandmatigeInvulling{
+text-align: center;
+
+}
+#WinkelKarNav{
+height: 20px;
+width: 20px;
+float: right;
+margin-top: 5px;
+margin-right: 5px;
+cursor: pointer;
+transition: 1s;
+}
+#WinkelKarNav:Hover{
+height: 40px;
+width: 45px;
+float: right;
+margin-top: 5px;
+margin-right: 5px;
+cursor: pointer;
+transition: 1s;
+}
+#Winkelmand{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:25%;
+    font-size: 100%;
+    background-color: whitesmoke;
+    float: left;
+    margin-top: 220px;
+    height: 370px;
+    border-top: black 2px solid;
+    font-family: Allura;
+}
+#Winkelmand h2{
+margin-left: 10px;
+}
+
+@media (max-width: 70em){
+    .FoodSelection:Hover .Beschrijving{
+    font-size: 80%;
+    width: 50%;
+    }
+}
+@media (max-width: 50em){
+    .FoodSelection:Hover .CONTENT{
+left: 90px;
+}
+}
+@media (max-width: 75em){
+    .WinkelKar{
+    font-size: 80%;
+    margin-top:-85px;
+    }
+}
