@@ -109,8 +109,8 @@ transition: all 0.3s;
 }
 .CONTENT{
 margin-left: 10%;
-margin-top: 3%;
 width: 75%;
+margin-top: 25px;
 }
 .FoodSelection:Hover .CONTENT{
 width: 75%;
@@ -151,7 +151,6 @@ transition: all 1s;
 width: 90%;
 height: 70px;
 max-height: 70px;
-margin-top: -2%;
 visibility: visible;
 overflow-y: scroll;
 text-align: left;
@@ -175,7 +174,7 @@ margin-top:5px;
 .GerechtTekst{
 margin-left: 10%;
 width: 70%;
-margin-top: 2%;
+
 transition: all 0.3s;
 }
 .FoodSelection:Hover .GerechtTekst{
@@ -204,8 +203,7 @@ transition: all 0.5s;
 .BestelText{
 opacity: 0;
 float: right;
-margin-top: -10px;
-margin-right: 7px;
+right: 0;
 box-shadow: 1px 5px #888888;
 visibility: hidden;
 }
@@ -214,10 +212,10 @@ transition: 0.5s;
 opacity: 1;
 background-color: white;
 cursor: pointer;
-margin-right: 6px;
 border: solid 2px black;
 border-radius: 10px;
 font-size: 17px;
+position: absolute;
 visibility: visible;
 }
 .FoodSelection .BestelText:hover{
@@ -341,10 +339,4 @@ margin-left: 10px;
     .FoodSelection:Hover .CONTENT{
 left: 90px;
 }
-}
-@media (max-width: 75em){
-    .WinkelKar{
-    font-size: 80%;
-    margin-top:-85px;
-    }
 }
