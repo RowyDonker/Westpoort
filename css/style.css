@@ -17,6 +17,8 @@ font-family: Allura;
 color: #b01033;
 text-align: center;
 font-size: 45px;
+width: 75%;
+margin-left: 25%;
 background-color: white;
 }
 #Titel{
@@ -30,7 +32,6 @@ margin-left: 10px;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
     overflow: hidden;
     background-color: #d93257;
     border-bottom: solid black 2px;
@@ -63,11 +64,12 @@ margin-left: 10px;
     width:25%;
     font-size: 100%;
     cursor: pointer;
-    position: absolute;
+    overflow: hidden;
+    
     background-color: #d93257;
     float: left;
     font-family: Allura;
-    border-bottom: solid black 2px;
+   
 }
 #NAV2 li{
 transition: 0.5s all;
@@ -90,6 +92,23 @@ transition: 0.5s all;
     background-color: #df5371;
     color: white;
 }
+#Winkelmand{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:25%;
+    font-size: 100%;
+    background-color: whitesmoke;
+    margin-top: 220px;
+    height: auto;
+    font-family: Allura;
+    left: 0;
+}
+#Winkelmand h2{
+margin-left: 10px;
+
+}
+
 .FoodSelection{
 width: 75%;
 height: 50px;
@@ -152,7 +171,6 @@ width: 90%;
 height: 70px;
 max-height: 70px;
 visibility: visible;
-overflow-y: scroll;
 text-align: left;
 }
 .Beschrijving{
@@ -204,6 +222,7 @@ transition: all 0.5s;
 opacity: 0;
 float: right;
 right: 0;
+bottom: -40;
 box-shadow: 1px 5px #888888;
 visibility: hidden;
 }
@@ -312,27 +331,11 @@ margin-right: 5px;
 cursor: pointer;
 transition: 1s;
 }
-#Winkelmand{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width:25%;
-    font-size: 100%;
-    background-color: whitesmoke;
-    float: left;
-    margin-top: 220px;
-    height: 370px;
-    border-top: black 2px solid;
-    font-family: Allura;
-}
-#Winkelmand h2{
-margin-left: 10px;
-}
 
 @media (max-width: 70em){
     .FoodSelection:Hover .Beschrijving{
-    font-size: 80%;
-    width: 50%;
+    font-size: 70%;
+    width: 80%;
     }
 }
 @media (max-width: 50em){
