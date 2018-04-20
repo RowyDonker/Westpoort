@@ -1,6 +1,6 @@
 <body>
 <h1 class="TitelBestelPagina">Voorgerechten</h1>
-<div class="FoodSelection" data-name="Biefstuk" data-price="€4,50">
+<div class="FoodSelection" data-name="Biefstuk" data-price="€4.50">
     <img class="PlaatjeGerecht" src="Images/Etenmetnaam/biefstuk.jpg">
     <div class="CONTENT">
     <div class="GerechtTekst">
