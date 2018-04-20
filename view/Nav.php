@@ -11,6 +11,10 @@
   <li><a href="index.php?page=GezondeMaaltijdsalades">Gezonde Maaltijdsalades</a></li>
 </ul>
 <div id="Winkelmand">
-<h2>Winkelmand</h2>
-<hr>
+	<h2>Winkelmand</h2>
+	<div id="WinkelItems"></div>
+	<hr>
+	<p>Totale prijs =</p>
+	<div id="Total"> </div>
+
 </div>
