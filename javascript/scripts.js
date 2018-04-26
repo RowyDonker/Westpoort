@@ -25,8 +25,8 @@ $( document ).ready(function() {
 	console.log(sum);
 	sum = Math.round(sum * 100) / 100;
 	console.log(sum);
-	document.getElementById("Total").innerHTML = "€" + sum;
-	$("#WinkelItems").append("<p>" + name + " : " + price + "</p>");
+	document.getElementById("Total").innerHTML ="Totale Prijs= " + "€" + sum;
+	$("#WinkelItems").append("<p>" + name + " : " + " € " + price + "</p>");
 
 
 

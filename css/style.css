@@ -17,13 +17,12 @@ font-family: Allura;
 color: #b01033;
 text-align: center;
 font-size: 45px;
-width: 75%;
-margin-left: 25%;
 background-color: white;
 }
 #Titel{
 position: absolute;
 color:white;
+float: right;
 font-family: Allura;
 margin-top: 5px;
 margin-left: 10px;
@@ -52,20 +51,20 @@ margin-left: 10px;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 #NAV li a:hover {
     background-color: #df5371;
 }
-
+#Navigatie2{
+display: inline;
+}
 #NAV2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width:25%;
-    font-size: 100%;
+    font-size: 120%;
     cursor: pointer;
-    overflow: hidden;
-    
+    display: inline;
     background-color: #d93257;
     float: left;
     font-family: Allura;
@@ -83,7 +82,7 @@ transition: 0.5s all;
 #NAV2 li:hover{
     
     width: 100%;
-    font-size: 125%;
+    font-size: 130%;
     transition: all 0.5s;
     text-shadow: 0 0 3px black, 0 0 5px gray;
 }
@@ -98,19 +97,44 @@ transition: 0.5s all;
     padding: 0;
     width:25%;
     font-size: 100%;
-    background-color: whitesmoke;
-    margin-top: 220px;
+    background-color: whitesmoke; 
+/*    background-color: whitesmoke;*/
+    float: left;
     height: auto;
-    font-family: Allura;
+    overflow-y: scroll;
+    max-height: 350px;
+    border: solid black 2px;
+    border-top: gray double 2px;
+    border-right: none;
+    border-left: none;
+    display: inline;
     left: 0;
+    text-shadow: -2px 2px white;
+    color: black;
+/*    color: black;*/
+}
+#Winkelmand hr{
+background-color: firebrick;
+}
+#Total{
+font-size: 30px;
+margin-left: 10px;
+padding-bottom: 5px;
 }
 #Winkelmand h2{
 margin-left: 10px;
 
 }
-
-.FoodSelection{
+#WinkelItems{
+margin-left: 10px;
+}
+.Voedselkeuze{
+float: right;
+display: inline;
 width: 75%;
+}
+.FoodSelection{
+width: 100%;
 height: 50px;
 background-color:white;
 float: right;
@@ -119,7 +143,7 @@ border-top: 1px solid black;
 transition: all 0.5s;
 }
 .FoodSelection:Hover{
-width: 75%;
+width: 100%;
 height: 170px;
 background-color:white;
 float: right;
@@ -342,4 +366,18 @@ transition: 1s;
     .FoodSelection:Hover .CONTENT{
 left: 90px;
 }
+}
+#HandmatigPagina{
+width: 75%;
+float: right;
+height: 600px;
+}
+#Bestellijst{
+width: 50%;
+margin-left: 25%;
+height: 570px;
+padding-bottom: 20px;
+}
+#DownloadText{
+text-align: center;
 }

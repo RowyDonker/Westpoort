@@ -5,8 +5,8 @@ include "head.php";
 include "Nav.php";
 
 
-$category = $_GET["page"];
 
+$category = $_GET ["page"];
 switch ($category) {
 	case 'AmsterdamseBroodjes':
 		include "AmsterdamseBroodjes.php";
@@ -41,14 +41,12 @@ switch ($category) {
 		include "Handmatig.php";
 
 	break;
-    	case 'Winkelmand':
-		include "Winkelmand.php";
-
-	break;
+    	
 	default:
 	include "home.php";
 		break;
 }
+include "Winkelmand.php";
 include "footer.php";
 
 
