@@ -32,8 +32,17 @@ $( document ).ready(function() {
 		 sum += prices[i];
 	}
 	sum = Math.round(sum * 100) / 100;
-	document.getElementById("Total").innerHTML = "€" + sum;
-	$("#WinkelItems").append("<p>" + name + " : " + price + "</p>");
+
+	console.log(sum);
+	document.getElementById("Total").innerHTML ="Totale Prijs= " + "€" + sum;
+	$("#WinkelItems").append("<p>" + name + " : " + " € " + price + "</p>");
+
+
+
+	
+
+
+
 	// console.log("tottaal" + prices.reduce(getSum));
 	});
 

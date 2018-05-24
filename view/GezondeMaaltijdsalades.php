@@ -1,6 +1,6 @@
 <body>
-<h1 class="TitelBestelPagina">Voorgerechten</h1>
-
+<div class="Voedselkeuze">
+<h1 class="TitelBestelPagina">Gezonde Maaltijd Salades</h1>
 <div class="FoodSelection">
     <img class="PlaatjeGerecht" src="Images/Etenmetnaam/biefstuk.jpg">
     <div class="CONTENT">
@@ -64,5 +64,6 @@
     </div>
      </div>
     <div class="WinkelKar"><img class="BestelKar" src="Images/shopping_cart_PNG37.png"><img class="BestelKarVol" src="Images/VolleKar.png"><p class="BestelText">Bestellen</p></div>
+</div>
 </div>
 </body>

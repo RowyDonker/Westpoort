@@ -1,5 +1,6 @@
 <body>
-<h1 class="TitelBestelPagina">Voorgerechten</h1>
+<div class="Voedselkeuze">
+<h1 class="TitelBestelPagina">Amsterdamse Broodjes</h1>
 <div class="FoodSelection" data-name="Biefstuk" data-price="€4.50">
     <img class="PlaatjeGerecht" src="Images/Etenmetnaam/biefstuk.jpg">
     <div class="CONTENT">
@@ -75,5 +76,6 @@
     </div>
      </div>
     <div class="WinkelKar"><img class="BestelKar" src="Images/shopping_cart_PNG37.png"><img class="BestelKarVol" src="Images/VolleKar.png"><p class="BestelText">Bestellen</p></div>
+</div>
 </div>
 </body>
