@@ -32,7 +32,7 @@ margin-left: 10px;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #d93257;
+    background-color: #e02323;
     border-bottom: solid black 2px;
     
 }
@@ -62,10 +62,10 @@ display: inline;
     margin: 0;
     padding: 0;
     width:25%;
-    font-size: 120%;
+    font-size: 150%;
     cursor: pointer;
     display: inline;
-    background-color: #d93257;
+    background-color: #e02323;
     float: left;
     font-family: Allura;
    
