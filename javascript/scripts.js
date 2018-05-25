@@ -7,9 +7,9 @@ $( document ).ready(function() {
 
     
 
-    $(".FoodSelection").click(function() {
+    $(".BestelText").click(function() {
 
-	// console.log("Name is " + this.dataset.name);
+	console.log("Dit werkt");
 	// console.log("Prijs is " + this.dataset.price);
 
 	var name = this.dataset.name;
