@@ -150,6 +150,10 @@ float: right;
 border-bottom: 2px solid black;
 transition: all 0.3s;
 }
+.Keuzes{
+float: right;
+margin-top: -60px;
+}
 .CONTENT{
 margin-left: 10%;
 width: 75%;
