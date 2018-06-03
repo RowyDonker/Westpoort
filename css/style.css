@@ -109,7 +109,7 @@ transition: 0.5s all;
     border-left: none;
     display: inline;
     left: 0;
-    text-shadow: -2px 2px white;
+   /* text-shadow: -2px 2px white;*/
     color: black;
 /*    color: black;*/
 }
@@ -380,4 +380,12 @@ padding-bottom: 20px;
 }
 #DownloadText{
 text-align: center;
+}
+#BestelActie{
+    text-align: center;
+    border:  5px solid black;
+    background-color: #d93257;
+}
+#BestelActie:hover{
+cursor: pointer;
 }

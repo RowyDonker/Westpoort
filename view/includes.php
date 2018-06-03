@@ -37,6 +37,10 @@ switch ($category) {
 		include "WarmeBroodjesSpecial.php";
 
 	break;
+		case 'Form':
+		include "Form.php";
+
+	break;
 	case 'Handmatig':
 		include "Handmatig.php";
 
