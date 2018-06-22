@@ -50,7 +50,7 @@ switch ($category) {
 	include "AmsterdamseBroodjes.php";
 		break;
 }
-include "Winkelmand.php";
+
 include "footer.php";
 
 

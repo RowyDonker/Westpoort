@@ -95,7 +95,7 @@ transition: 0.5s all;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width:25%;
+    width:100%;
     font-size: 100%;
     background-color: whitesmoke; 
 /*    background-color: whitesmoke;*/
@@ -392,4 +392,12 @@ text-align: center;
 }
 #BestelActie:hover{
 cursor: pointer;
+}
+
+.Form{
+    text-align: center;
+}
+.Form img{
+    width: 19%;
+    height: 16%;
 }

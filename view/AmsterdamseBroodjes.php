@@ -4,19 +4,6 @@
 <div class="FoodSelection">
     <img class="PlaatjeGerecht" src="Images/Etenmetnaam/biefstuk.jpg">
     <div class="CONTENT">
-    <div class="GerechtTekst">
-    <h2 class="GerechtNaam">Biefstuk</h2>
-    <h2 class="Prijs">$4.50</h2>
-    <div class="Keuzes">
-    <input type="radio" name="slatomaat" value="sla">Sla<br>
-    <input type="radio" name="slatomaat" value="Tomaat">Tomaat<br>
-    <select>
-    <option value="wit brood">wit brood</option>
-    <option value="bruin brood">bruin brood</option>
-    </select>
-    </div>
-    <p class="Beschrijving">Beschrijving...bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
-
         <div class="GerechtTekst">
         <h2 class="GerechtNaam">Biefstuk</h2>
         <h2 class="Prijs">$4.50</h2>
@@ -71,7 +58,7 @@
     <div class="CONTENT">
     <div class="GerechtTekst">
     <h2 class="GerechtNaam">Biefstuk</h2>
-    <h2 class="Prijs">$4.50</h2>
+    <h2 class="Prijs">$4.50</h2>jkkghjgkghkgh
     <p class="Beschrijving">Beschrijving...bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
     </div>
      </div>

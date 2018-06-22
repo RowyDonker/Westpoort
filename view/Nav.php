@@ -13,6 +13,7 @@
   <li><a href="index.php?page=Hoofdgerechten">Hoofdgerechten</a></li>
   <li><a href="index.php?page=Hoofdgerechten">Bittergarnituur</a></li>
   <li><a href="index.php?page=Hoofdgerechten">Dranken</a></li>
+  <?php include "Winkelmand.php"; ?>
 </ul>
 </div>
 
