@@ -151,8 +151,8 @@ border-bottom: 2px solid black;
 transition: all 0.3s;
 }
 .Keuzes{
-margin-left: auto;
-
+float: right;
+margin-top: -60px;
 }
 .CONTENT{
 margin-left: 10%;
@@ -323,7 +323,6 @@ right: 10px;
 position: absolute;
 margin-top: -95px;
 width: 0px;
-
 }
 .BestelKar{
 visibility: visible;
@@ -401,67 +400,4 @@ cursor: pointer;
 .Form img{
     width: 19%;
     height: 16%;
-
-
-/*Modal*/
-.modalDialog {
-position: fixed;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-/*background: rgba(0,0,0,0.8);*/
-z-index: 99999;
-opacity:0;
--webkit-transition: opacity 400ms ease-in;
--moz-transition: opacity 400ms ease-in;
-transition: opacity 400ms ease-in;
-pointer-events: none;
-}
-
-
-
-.modalDialog:target {
-opacity:1;
-pointer-events: auto;
-}
-
-.modalDialog > div {
-width: 40%;
-height: 125px;
-position: relative;
-margin: 15% auto;
-padding: 5px 20px 13px 20px;
-background: white;
-border: 5px  #d93257 solid;
-}
-.ModalContent{
-width: 100%;
-height: 500px;
-
-}
-.ModalImages{
-width: 50%;
-height:50%;
-float: left;
-}
-
-.close {
-background: #606061;
-color: #FFFFFF;
-line-height: 25px;
-position: absolute;
-right: -12px;
-text-align: center;
-top: -10px;
-width: 24px;
-text-decoration: none;
-font-weight: bold;
--webkit-border-radius: 12px;
--moz-border-radius: 12px;
-border-radius: 12px;
--moz-box-shadow: 1px 1px 3px #000;
--webkit-box-shadow: 1px 1px 3px #000;
-box-shadow: 1px 1px 3px #000;
-
 }
