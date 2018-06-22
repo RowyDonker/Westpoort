@@ -44,6 +44,15 @@
                     </div>
                 </div>
 
+
+
+
+
+
+
+
+
+
 </div>
 <div class="FoodSelection" data-name="Hamburger" data-price="€3.36">
     <img class="PlaatjeGerecht" src="Images/Etenmetnaam/biefstuk.jpg">
